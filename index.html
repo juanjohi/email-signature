@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> Email Signature </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 717px;
+            height: 198px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin-top: 5rem;
+            margin-right: 1.5rem;
+            margin-left: 9rem;
+        }
+
+        .logo {
+            width: 119px;
+        }
+
+        .signature {
+            display: flex;
+            align-items: center;
+        }
+
+        .signature-icon {
+            margin-right: -10px;
+        }
+
+        .line {
+            border-left: 2px solid #19CAF1;
+            margin-right: 10px;
+            height: 120px;
+            margin-top: 7px;
+        }
+
+        .signature-details {
+            line-height: 1.4;
+        }
+
+        .contact-numbers {
+            display: flex;
+            gap: 10px;
+            font-size: 0.6rem;
+            margin-top: 1rem;
+            color: #555555;
+        }
+
+        .contact-numbers span::after {
+            content: "|";
+            margin-left: 10px;
+            font-size: 10px;
+            color: rgb(17, 170, 241);
+        }
+
+        .contact-numbers span:last-child::after {
+            content: "";
+        }
+
+        .name {
+            color: #C61241;
+
+        }
+
+        .sub {
+            color: #555555;
+            font-size: 1rem;
+            margin-top: auto;
+        }
+
+        .logo-link1 {
+            width: 20px;
+
+        }
+
+        .logo-link2 {
+            width: 20px;
+            margin-left: -35px;
+        }
+
+        .logo-link3 {
+            width: 20px;
+            margin-left: -35px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 50px;
+            margin-top: 0.6rem;
+        }
+
+        .social-links span::after {
+            content: "| ";
+            margin-left: 25px;
+            font-size: 1.5rem;
+            width: 39px;
+            color: rgb(17, 170, 241);
+        }
+
+        .social-links span:last-child::after {
+            content: "";
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="signature">
+            <div class="signature-icon">
+                <img class="logo" src="./assets/The-Mulberry-Company-Logomark.png" alt="Icon">
+            </div>
+            <div class="line"></div>
+            <div class="signature-details">
+                <p> <strong class="name">John Mararo</strong><br> <span class="sub">Web & Systems Developer</span> </p>
+                <div class="contact-numbers">
+                    <span title="General Contact"> +254 722 572 980</span>
+                    <span title="Direct Call"> +254 20 221 3339</span>
+                    <span title="Other Contact"> +254 777 212 333</span>
+                </div>
+                <div class="social-links">
+                    <span><img class="logo-link1" src="./assets/mb-web.png" alt="web"></span>
+                    <span> <img class="logo-link2" src="./assets/mb-whatsapp-icon.png" alt="app"></span>
+                    <span><img class="logo-link3" src="./assets/mb-linktree-icon.png" alt="link"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
